@@ -13,4 +13,7 @@ https://www.postgresql.org/docs/current/regress-run.html
 Follow the tutorial examples to get up to speed with psql:
 https://www.postgresql.org/docs/11/tutorial-sql-intro.html
 
+Scripts require psycopg2 module:
+"sudo apt-get install python-psycopg2"
+
 Run my scripts from the command line and verify by logging into the db from psql.
