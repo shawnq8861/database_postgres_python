@@ -8,7 +8,7 @@ def main():
 	# if database does not exist, it will be created
 	#
 	connection = psycopg2.connect(database="postgres", user="postgres",
-	password="RobotMan!2018", host="127.0.0.1", port="5432")
+	password="nvidia", host="127.0.0.1", port="5432")
 	#
 	# enable autocommit
 	#
