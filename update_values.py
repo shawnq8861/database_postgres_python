@@ -5,7 +5,7 @@ import psycopg2
 def main():
 	print("Hello Update Values!\n")
 	connection = psycopg2.connect(database="mydb", user="postgres",
-	password="RobotMan!2018", host="127.0.0.1", port="5432")
+	password="nvidia", host="127.0.0.1", port="5432")
 	#
 	# grab the cursor
 	#
