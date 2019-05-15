@@ -5,7 +5,7 @@ import psycopg2
 def main():
 	print("Hello Create Table!")
 	connection = psycopg2.connect(database="mydb", user="postgres",
-	password="RobotMan!2018", host="127.0.0.1", port="5432")
+	password="nvidia", host="127.0.0.1", port="5432")
 	print("connected to database...")
 	#
 	# grab the cursor
