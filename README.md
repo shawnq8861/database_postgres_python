@@ -7,6 +7,9 @@ Clone and build postgres:
 http://git.postgresql.org/git/postgresql.git
 https://www.postgresql.org/docs/11/install-short.html
 
+You may need to install readline and re-run ./configure:
+https://packages.ubuntu.com/search?keywords=readline
+
 Make sure the regressions test run:
 https://www.postgresql.org/docs/current/regress-run.html
 
